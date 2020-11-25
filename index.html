@@ -1,14 +1,162 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Portfolio Template</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
-    welcome to my portfolio webpage
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+        <!-- Bootstrap CSS -->
+        <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        />
+    
+        <!-- Bootstrap Js -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+        <!-- My CSS -->
+        <link rel="stylesheet" href="style.css" />
+    
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/996973c893.js"></script>
+    
+        <!-- Google Fonts -->
+        <link
+          href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap" rel="stylesheet"/>
+             
+        <title>Portfolio</title>
+      </head>
+
+      <body>
+          <div class="container pt-3" id="navigation">
+              <div class="row">
+                  <div class="col-6 d-flex justify-content-start align-items-center">
+                    <i class="fas fa-code fa-2x text-warning pb-3"></i>
+                    <a href="#home"><h5 class="text-white d-inline pl-2">Portfolio</h5></a>
+                  </div>
+                  <div class="col-6 pt-2">
+                      <div class="row">                  
+                        <div class="col-3 ">
+                              <a href="#about" class="text-white navigation-link">About</a>
+                          </div>
+                          <div class="col-3">
+                            <a href="#projects" class="text-white navigation-link">Projects</a>
+                          </div>
+                          <div class="col-3">
+                            <a href="#SocialMedia" class="text-white navigation-link">Social Media</a>
+                          </div>
+                          <div class="col-3">
+                            <a href="#Resume" class="text-white navigation-link">Resume</a>
+                          </div>
+                      </div>
+                </div>
+              </div>
+          </div>
+
+
+<!-- Home page -->
+          <div id="home">
+          <div class="container main-container">
+              <div class="row">
+                  <div class="col-6">
+                      <h2 class="text-white">Hello, I'm</h2>
+                      <h2 class="text-warning m-heading">Savya Sachi V B</h2>
+                      <h2 class="text-white">Web Developer</h2>
+                  </div>
+                  <div class="col-6">
+                      <img src="images/about_img.svg" alt="image">
+                  </div>
+              </div>
+          </div>
+        </div>
+
+
+<!-- About page -->
+        <div id="About-Pane">
+        <div class="container" id="about">
+            <div class="row">
+                <div class="col-6 pl-5 pt-5 pb-5 text-white">
+                    <img src="images/undraw_updated_resume_u4fy.svg" class="img-fluid" alt="about images">
+                </div>
+                <div class="col-6">
+                    <br>
+                    <h3 class="text-warning m-heading pt-50">About Me</h3>
+                    <br>
+                    <h4 class="m-heading text-white">A little bit about me.</h4>
+                    <p><b class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit.libero beatae placeat<br> repudiandae accusamus tempora vitae ex molestiae quaerat alias? Laboriosam, id iure. Expedita pariatur dolor ipsam officiis consequatur quia!</b></p>
+                    <p><b class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit.libero beatae placeat<br> repudiandae accusamus tempora vitae ex molestiae quaerat alias? Laboriosam, id iure. Expedita pariatur dolor ipsam officiis consequatur quia!</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Projects Pane -->
+        <div id="projects-pane">
+        <div class="container main-container" id="projects">
+        <h1 class="text-warning pt-5 pb-5">My Projects</h1>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="images/messaging.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Blog App</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="#" class="btn btn-warning">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="images/e_commerce_platform.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">PC E-commerce Website</h5>
+                  <p class="card-text">This is a short card.</p>
+                  <a href="#" class="btn btn-warning">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="images/photography.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Camping Website</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-warning">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+    </div>
+
+        <!-- Social media pane -->
+        <div id="socialMedia-Pane">
+        <div class="container-fluid p-4" id="SocialMedia">
+            <div class="container text-white">
+                <h4 class="text-warning">Social Media</h4>
+                <h1 class="m-heading">Lets be friends</h1>
+                <div class="row col-5">
+                    <div class="row col-3 media_link btn" href="#">
+                        <div class="col-6 d-flex justify-content-start">
+                            <h3 class="p-2  m-0 text-white">LinkedIn</h3>  <i class="fab fa-linkedin p-2 align-items-top fa-2x text-white"></i>
+                            <h3 class="p-2  m-0 text-white">LinkedIn</h3>  <i class="fab fa-linkedin p-2 align-items-top fa-2x text-white"></i>
+                            <h3 class="p-2  m-0 text-white">LinkedIn</h3>  <i class="fab fa-linkedin p-2 align-items-top fa-2x text-white"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+<!-- Footer pane -->
+        <div id="footer-Pane">
+        <footer>
+            <div class="container text-muted text-center py-3 mt-5"> 
+                <h5>Copyright &copy; 2020 | <a href="#" class="text-white navigation-link">Savyasachi Bongale</a></h5>
+            </div>
+        </footer>
+    </div>
+
+        </body>
 </html>
