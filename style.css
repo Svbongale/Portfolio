@@ -3,12 +3,10 @@ html{
 }
 
 body {
-    background-color: #2d4059;
     font-family: "Baloo Tamma 2", cursive;
 }
 
 #home {
-    padding-top: 40px;
     height: 100vh;
     background-color: #2d4059;
 }
@@ -33,6 +31,13 @@ body {
     top: 0;
     z-index: 100;
 }
+
+#home-image {
+    width: 1000px;
+    height: 600px;
+}
+
+
 
 .m-heading {
     font-family: "Roboto Slab", serif;
