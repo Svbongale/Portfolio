@@ -14,6 +14,7 @@
     
         <!-- My CSS -->
         <link rel="stylesheet" href="style.css" />
+        <script src="./animations.js"></script>
     
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/996973c893.js"></script>
@@ -24,33 +25,37 @@
              
         <title>Portfolio</title>
       </head>
-      <!-- Navbar pane -->
+      
       <body>
-          <div class="container pt-3" id="navigation">
-              <div class="row">
-                  <div class="col-6 d-flex justify-content-start align-items-center">
-                    <i class="fas fa-code fa-2x text-warning pb-3"></i>
-                    <h5 class="text-white d-inline pl-2">Portfolio</h5>
-                  </div>
-                  <div class="col-6 pt-2">
-                      <div class="row">                  
-                        <div class="col-3 ">
-                              <a href="#about" class="text-white navigation-link">About</a>
-                          </div>
-                          <div class="col-3">
-                            <a href="#projects" class="text-white navigation-link">Projects</a>
-                          </div>
-                          <div class="col-3">
-                            <a href="#SocialMedia" class="text-white navigation-link">Social Media</a>
-                          </div>
-                          <div class="col-3">
-                            <a href="#Resume" class="text-white navigation-link">Resume</a>
-                          </div>
-                      </div>
-                </div>
-              </div>
-          </div>
 
+        <!-- Navbar -->
+        <nav id="main-navbar" class="navbar sticky-top navbar-expand-lg">
+          <div class="container">
+          <div class="col-6 d-flex justify-content-start align-items-center">
+            <i class="fas fa-code fa-2x text-warning pb-3"></i>
+            <h3 class="text-warning d-inline pl-1">Portfolio</h3>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav justify-content-between w-100" id="navList">
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="#Contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="#Resume">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div> 
+      </nav>
 
 <!-- Home page -->
           <div id="home">
@@ -73,12 +78,12 @@
         <div id="About-Pane">
         <div class="container" id="about">
             <div class="row">
-                <div class="col-6 pl-5 pt-5 pb-5 text-white">
+                <div class="col-8 pt-5  text-white">
                     <img src="images/undraw_updated_resume_u4fy.svg" class="img-fluid" alt="about images">
                 </div>
-                <div class="col-6">
+                <div class="col-4">
                     <br>
-                    <h3 class="text-warning m-heading pt-50">About Me</h3>
+                    <h2 class="text-warning m-heading pt-50">About Me</h2>
                     <br>
                     <h4 class="m-heading text-white">A little bit about me.</h4>
                     <p><b class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit.libero beatae placeat<br> repudiandae accusamus tempora vitae ex molestiae quaerat alias? Laboriosam, id iure. Expedita pariatur dolor ipsam officiis consequatur quia!</b></p>
@@ -88,14 +93,14 @@
         </div>
     </div>
 
-        <!-- Projects Pane -->
+    <!-- Projects Pane -->
         <div id="projects-pane">
-        <div class="container main-container" id="projects">
-        <h1 class="text-warning pt-5 pb-5">My Projects</h1>
+        <div class="container p-6" id="projects">
+        <h1 class="text-warning pt-4 pb-4">My Projects</h1>
         <div class="row row-cols-1 row-cols-md-3">
             <div class="col mb-4">
               <div class="card h-100">
-                <img src="images/messaging.svg" class="card-img-top" alt="...">
+                <img src="images/messaging.svg" class="card-img-top" alt="images">
                 <div class="card-body">
                   <h5 class="card-title">Blog App</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -127,24 +132,59 @@
         </div>  
     </div>
 
-        <!-- Social media pane -->
-        <div id="socialMedia-Pane">
-        <div class="container-fluid p-4" id="SocialMedia">
-            <div class="container text-white">
-                <h4 class="text-warning">Social Media</h4>
-                <h1 class="m-heading">Lets be friends</h1>
-                <div class="row col-5">
-                    <div class="row col-3 media_link btn" href="#">
-                        <div class="col-6 d-flex justify-content-start">
-                            <h3 class="p-2  m-0 text-white">LinkedIn</h3><i class="fab fa-linkedin p-2 align-items-top fa-2x text-white"></i>
-                            <h3 class="p-2  m-0 text-white">Facebook</h3><i class="fab fa-linkedin p-2 align-items-top fa-2x text-white"></i>
-                            <h3 class="p-2  m-0 text-white">Github</h3><i class="fab fa-linkedin p-2 align-items-top fa-2x text-white"></i>
-                        </div>
+        <!--Contact pane -->
+        <div id="Contact-pane">
+          <div class="container-fluid p-10" id="Contact">
+              <div class="container text-white">
+                  <h2 class="text-warning">Contact Me</h2>
+              </div>
+              <div class="container">
+              <div class="row">
+                <div class="card mb-3-fluid" style="max-width: 500px; max-height:550px;">
+                  <div class="row no-gutters">
+                    <div class="col-md-8">
+                      <img src="images/undraw_updated_resume_u4fy.svg" class="card-img" alt="Resume Image">
                     </div>
+                    <div class="col-md-8">
+
+                    </div>
+                  </div>
                 </div>
             </div>
+          </div>
+          </div>
+         </div>
+          
+
+<!-- Resume pane -->
+<div id="Resume-Pane">
+  <div class="container-fluid p-10" id="Resume">
+      <div class="container text-white">
+          <h2 class="text-warning">My Resume</h2>
+      </div>
+      <div class="container">
+      <div class="row">
+        <div class="card mb-3-fluid" style="max-width: 400px; max-height:550px;">
+          <div class="row no-gutters">
+            <div class="col-md-8">
+              <img src="images/undraw_updated_resume_u4fy.svg" class="card-img" alt="Resume Image">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="row col-6 justify-content-right pl-6">
+          <img src="images/undraw_files_6b3d.svg" class="img-fluid" alt="about images">
         </div>
+    </div>
+  </div>
+  </div>
+ </div>
 
 <!-- Footer pane -->
         <div id="footer-Pane">
@@ -155,5 +195,20 @@
         </footer>
     </div>
 
-        </body>
+
+    <script src="animations.js">
+      // $(function() {
+      //   $(document).scroll(function() {
+      //     var $nav = $("#main-navbar");
+      //     $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      //   })
+      // })
+    </script>
+
+    
+    </body>
 </html>
+
+
+
+

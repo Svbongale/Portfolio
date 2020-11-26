@@ -3,10 +3,16 @@ html{
 }
 
 body {
+    background-color: #2d4059;
     font-family: "Baloo Tamma 2", cursive;
 }
 
+li {
+    font-size: 1.5rem;
+}
 #home {
+    padding-top: 50px;
+    padding-left: 25px;
     height: 100vh;
     background-color: #2d4059;
 }
@@ -17,13 +23,19 @@ body {
 }
 
 #projects-pane {
-    height: 100vh;
+   height: 100vh;
    background-color:  #decdc3;
 }
 
-#socialMedia-Pane {
+#Contact-Pane {
     height: 100vh;
     background-color: #e5e5e5;
+}
+
+#Resume-pane {
+    height: 100vh;
+    padding-top: 50px;
+    background-color: #583d72;
 }
 
 #navigation {
@@ -38,7 +50,6 @@ body {
 }
 
 
-
 .m-heading {
     font-family: "Roboto Slab", serif;
 }
@@ -47,11 +58,6 @@ body {
     border: 2px solid transparent;
 }
 
-.navigation-link:hover {
-    text-decoration: 2px solid;
-    border-bottom: 2px solid #f5ba09;
-    transition: 0.5s ease;
-}
 
 .main-container {
     min-height: 100vh;
@@ -74,13 +80,24 @@ body {
 }
 
 #about {
+    padding-top: 80px;
     height: 100%;
     border-radius: 15px;
 }
 
-#socialMedia {
-    height: 100%;
-    background: #2a265f;
+#projects {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#Contact {
+  padding-top: 100px;  
+  height: 100vh;
+  background: #2a265f;
+}
+
+#Resume {
+    padding-top: 100px;
 }
 
 .media_link{
@@ -89,3 +106,26 @@ body {
     margin-left:1rem;
     border-radius: 5px;
 }
+
+.navbar.scrolled {
+    background-color:  #ea5455;
+    transition: background 800ms;
+    color: aqua;
+}
+
+
+.navbar.scrolled2 {
+    background-color: #decdc3;
+    transition: background 800ms;
+}
+
+.navbar.scrolled3 {
+    background-color: #2a265f;
+    transition: background 800ms;
+}
+
+.navbar.scrolled4 {
+    background-color: #2d4059;
+    transition: background 800ms;
+}
+
