@@ -12,8 +12,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     
         <!-- My CSS -->
-        <link rel="stylesheet" href="style.css" />
-        <script src="./animation.js"></script>
+        <link rel="stylesheet" href="style.css"/>
+        
     
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/996973c893.js"></script>
@@ -28,35 +28,23 @@
 
 
         <!-- Navigation Panel -->
-        <nav id="main-navbar" class="navbar sticky-top navbar-expand-lg bg-dark">
-            <div class="container">
-            <div class="col-6 d-flex justify-content-start align-items-center">
-              <i class="fas fa-code fa-2x text-warning pb-3"></i>
-              <h3 class="text-warning d-inline pl-1">Portfolio</h3>
+
+
+        <nav>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
-            <button id="toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav justify-content-between w-100">
-                <li class="nav-item">
-                  <a class="nav-link text-warning" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-warning" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-warning" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-warning" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-warning" href="#resume">Resume</a>
-                </li>
-              </ul>
-            </div>
-          </div> 
+
+            <ul class="nav-links">
+                <li><a class="anch1" href="#home">Home</a></li>
+                <li><a class="anch2" href="#about">About</a></li>
+                <li><a class="anch3" href="#projects">Projects</a></li>
+                <li><a class="anch4" href="#contact">Contact</a></li>
+                <li><a class="anch5" href="#resume">Resume</a></li>
+            </ul>
+
         </nav>
 
 
@@ -64,12 +52,20 @@
         <!-- Home Panel -->
         <div id="home" class="col-lg-12" >
             <div class="sectionDiv">
-                <div>
-                    <h2>Hello there!</h2>
+                <div id="homeContent" class="container">
+                    <div>
+                    <br> 
+                    <br> 
+                    <br> 
+                    <br> 
                     <h1>I'm Savyasachi V B</h1>
+                    <h2>I'm a Web Developer</h2>
+                    <h2>And I'm Self taught</h2>
+                    </div>  
                 </div>
             </div>
         </div>
+   
 
 
         <!-- About Panel -->
@@ -101,7 +97,7 @@
                 
             </div>
         </div>
-
+        <script src="./animation.js"></script>
     </body>
 
 
