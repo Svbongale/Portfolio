@@ -1,0 +1,55 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+#toggler {
+    border: 1px solid #f5b60a;
+    border-radius:5px;
+    background-color: #534e1d;  
+}
+
+
+#home {
+    background-color: #08d9d6;
+    background-image: url(images/about_img.svg);
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+#about {
+    background: #252a34;
+    background-image: url(images/undraw_files_6b3d.svg);
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+#projects {
+    background: #ff2e63;
+    background-image: url(images/undraw_developer_activity_bv83.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#contact {
+    background: #eaeaea;
+    background-image: url(images/undraw_developer_activity_bv83.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#resume {
+    background: #8785a2;
+    background-image: url(images/undraw_developer_activity_bv83.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sectionDiv {
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+}
+

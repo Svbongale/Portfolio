@@ -19,12 +19,13 @@ li {
 
 #About-Pane {
     height: 100vh;
+    width: 100%;
     background-color: #ea5455;
 }
 
 #projects-pane {
    height: 100vh;
-   background-color:  #decdc3;
+   background-color:  #008cff;
 }
 
 #Contact-Pane {
@@ -44,9 +45,9 @@ li {
     z-index: 100;
 }
 
-#home-image {
-    width: 1000px;
-    height: 600px;
+
+#footer-Pane {
+    background-color: #2d4059;
 }
 
 
@@ -79,24 +80,33 @@ li {
     height: 100%;
 }
 
+#home-image {
+    max-width: 650px;
+    max-height: 900px;
+}
 #about {
     padding-top: 80px;
     height: 100%;
+    width: 100%;
     border-radius: 15px;
 }
 
 #projects {
     padding-top: 50px;
     padding-bottom: 100px;
+    width: 100%;
 }
 
 #Contact {
   padding-top: 100px;  
   height: 100vh;
+  width: 100%;
   background: #2a265f;
 }
 
 #Resume {
+    width: 100%;
+    background-color: #2d4059;
     padding-top: 100px;
 }
 
@@ -110,12 +120,11 @@ li {
 .navbar.scrolled {
     background-color:  #ea5455;
     transition: background 800ms;
-    color: aqua;
 }
 
 
 .navbar.scrolled2 {
-    background-color: #decdc3;
+    background-color: #008cff;
     transition: background 800ms;
 }
 
