@@ -83,6 +83,11 @@ html{
     background-repeat: no-repeat;
 }
 
+#aboutContent{
+    color: white;
+    font-size: medium;
+}
+
 #projects {
     background: #ff2e63;
     background-image: url(images/undraw_developer_activity_bv83.svg);
@@ -111,7 +116,7 @@ html{
 /* start of home page text styles */
 h1,h2 {
     font-weight: 200;
-    margin: 0.4em 0;
+    
   }
   h1 { font-size: 3.5em;
         color: rgb(233, 15, 15);
