@@ -108,6 +108,25 @@ html{
     height: 100vh;
 }
 
+/* start of home page text styles */
+h1,h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+  }
+  h1 { font-size: 3.5em;
+        color: rgb(233, 15, 15);
+    }
+  h2 {
+    
+    font-size: 2em;
+  }
+
+/* End of home page text styles */
+
+
+
+
+
 @media screen and (max-width: 768px) {
     .line {
       width: 30px;
