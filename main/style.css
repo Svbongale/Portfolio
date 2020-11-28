@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Share+Tech&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -31,12 +33,12 @@ html{
     background: #34aeeb; 
   }
   body {
-    font-family: sans-serif;
+    font-family: Fredoka One,sans-serif;
   }
   
   nav {
     height: 10vh;
-    background: #5b78c7;
+    background: #d54062;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -63,7 +65,7 @@ html{
 
 
 #home {
-    background-color: #08d9d6;
+    background-color: #17293b;
     background-image: url(images/about_img.svg);
     background-size: contain;
     background-position: 640px 140px;
@@ -76,40 +78,45 @@ html{
 }
 
 #about {
-    background: #252a34;
+    background: #0f4c75;
     background-image: url(images/undraw_percentages_0rur.svg);
     background-size: contain;
-    background-position: left;
+    background-position: 600px -50px;
     background-repeat: no-repeat;
 }
 
 #aboutContent{
+    position: absolute;
     color: white;
     font-size: medium;
+    max-width: 700px;
 }
 
 #projects {
     background: #ff2e63;
-    background-image: url(images/undraw_developer_activity_bv83.svg);
+    background-image: url(images/undraw_project_completed_w0oq.svg);
     background-size: contain;
+    background-position: 600px;
     background-repeat: no-repeat;
 }
 
 #contact {
     background: #eaeaea;
-    background-image: url(images/undraw_developer_activity_bv83.svg);
+    background-image: url(images/undraw_delivery_address_03n0.svg);
     background-size: contain;
+    background-position: -100px 80px;
     background-repeat: no-repeat;
 }
 
 #resume {
     background: #8785a2;
-    background-image: url(images/undraw_developer_activity_bv83.svg);
+    background-image: url(images/undraw_folder_39kl.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .sectionDiv {
+    
     height: 100vh;
 }
 
@@ -119,7 +126,7 @@ h1,h2 {
     
   }
   h1 { font-size: 3.5em;
-        color: rgb(233, 15, 15);
+        color: rgb(26, 211, 88);
     }
   h2 {
     
@@ -205,7 +212,22 @@ h1,h2 {
     display: none;
   }
     #home{
-        background-position: left;
+        background-position: bottom center;
+    }
+
+    #about{
+      background-position: bottom center;
+    }
+ 
+    #projects{
+      background-position: bottom center;
+    }
+    #contact{
+      background-position:  center;
+    }
+
+    #resume{
+      background-position: bottom center;
     }
   }
   

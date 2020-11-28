@@ -9,7 +9,7 @@ body {
 
 nav {
   height: 10vh;
-  background: #5b78c7;
+  background: #2678f1;
 }
 
 .nav-links {
@@ -28,24 +28,13 @@ nav {
   font-size: 16px;
 }
 
-.landing {
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.landing h1 {
-  margin: 100px;
-  font-size: 50px;
-  color: #ae5fce;
-}
 
 @media screen and (max-width: 768px) {
   .line {
     width: 30px;
     height: 3px;
-    background: white;
+    background: rgb(255, 255, 255);
     margin: 5px;
   }
   nav {
@@ -77,9 +66,7 @@ nav {
     -webkit-clip-path: circle(1000px at 90% -10%);
     pointer-events: all;
   }
-  .landing {
-    flex-direction: column;
-  }
+
   .nav-links li {
     opacity: 0;
   }
