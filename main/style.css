@@ -10,7 +10,9 @@
 html{
     scroll-behavior: smooth;
 }
-
+h3{
+  color: white;
+}
 /* width */
 ::-webkit-scrollbar {
     width: 15px;
@@ -55,14 +57,11 @@ html{
   }
   
   .nav-links li a {
-    color: #d4c5a8;
+    color: #ffffff;
     text-decoration: none;
     font-size: 18px;
   }
   
-
-  
-
 
 #home {
     background-color: #17293b;
@@ -108,11 +107,27 @@ html{
     background-repeat: no-repeat;
 }
 
+#contactContent h2{
+  justify-content: right;
+  margin-left: 1000px;
+  background-color: rgba(204, 202, 202,0.2);
+  border: 2px solid #c4c5c4;
+  border-radius: 25px;
+  padding: 30px;
+}
+
 #resume {
     background: #8785a2;
     background-image: url(images/undraw_folder_39kl.svg);
     background-size: contain;
+    background-position: 700px 10px;
     background-repeat: no-repeat;
+}
+
+#resumeContent{
+  position: left center;
+  padding-top: 100px;
+  padding-left: 100px;
 }
 
 .sectionDiv {
@@ -125,9 +140,12 @@ h1,h2 {
     font-weight: 200;
     
   }
-  h1 { font-size: 3.5em;
-        color: rgb(26, 211, 88);
-    }
+
+  h1 { 
+    font-size: 3.5em;
+    color: rgb(26, 211, 88);
+  }
+
   h2 {
     
     font-size: 2em;
@@ -223,7 +241,13 @@ h1,h2 {
       background-position: bottom center;
     }
     #contact{
-      background-position:  center;
+      background-position: bottom center;
+    }
+
+    #contactContent h2{
+      justify-content: center;
+      margin-left: 20px;
+      padding: 10px;
     }
 
     #resume{
