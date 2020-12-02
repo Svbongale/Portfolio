@@ -174,7 +174,7 @@ h1,h2 {
 /* End of home page text styles */
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
     .line {
       width: 30px;
       height: 3px;
