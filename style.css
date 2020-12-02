@@ -108,13 +108,19 @@ h3 {
     background-repeat: no-repeat;
 }
 
+#contact-head {
+  justify-content: right;
+  margin-left: 66%;
+  padding-top: 100px;
+}
+
 #contactContent h2 {
   justify-content: right;
   margin-left: 1000px;
   background-color: rgba(204, 202, 202,0.2);
   border: 2px solid #c4c5c4;
   border-radius: 25px;
-  padding: 30px;
+  padding: 10px;
 }
 
 #resume {
@@ -264,6 +270,12 @@ h1,h2 {
 
     #contact {
       background-position: bottom center;
+    }
+
+    #contact-head {
+      padding-top: 100px;
+      justify-content: left;
+      margin-left: 5%;
     }
 
     #contactContent h2 {
