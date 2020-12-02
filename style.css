@@ -100,18 +100,19 @@ h3 {
     background-repeat: no-repeat;
 }
 
+
+#contact-head {
+  justify-content: right;
+  margin-left: 66%;
+  padding-top: 100px;
+}
+
 #contact {
     background: #eaeaea;
     background-image: url(images/undraw_delivery_address_03n0.svg);
     background-size: contain;
     background-position: -100px 80px;
     background-repeat: no-repeat;
-}
-
-#contact-head {
-  justify-content: right;
-  margin-left: 66%;
-  padding-top: 100px;
 }
 
 #contactContent h2 {
@@ -268,14 +269,15 @@ h1,h2 {
       background-position: bottom center;
     }
 
-    #contact {
-      background-position: bottom center;
-    }
-
     #contact-head {
       padding-top: 100px;
       justify-content: left;
       margin-left: 5%;
+    }
+    
+
+    #contact {
+      background-position: bottom center;
     }
 
     #contactContent h2 {
