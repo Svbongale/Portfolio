@@ -103,7 +103,7 @@ h3 {
 
 #contact-head {
   margin-left: 66%;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 #contact {
@@ -116,7 +116,7 @@ h3 {
 
 #contactContent h2 {
   justify-content: right;
-  margin-left: 1000px;
+  margin-left: 990px;
   background-color: rgba(204, 202, 202,0.2);
   border: 2px solid #c4c5c4;
   border-radius: 25px;
