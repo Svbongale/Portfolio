@@ -89,6 +89,7 @@ h3{
     color: white;
     font-size: medium;
     max-width: 700px;
+    overflow: hidden;
 }
 
 #projects {
@@ -257,6 +258,9 @@ h1,h2 {
 
     #about{
       background-position:  -200px 250px;
+    }
+    #aboutContent{
+      overflow: hidden;
     }
 
     #projects{
