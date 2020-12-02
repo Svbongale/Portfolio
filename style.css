@@ -109,6 +109,11 @@ h3 {
     background-repeat: no-repeat;
 }
 
+#contact-head {
+  margin-left: 66%;
+  padding-top: 100px;
+}
+
 #contactContent h2 {
   justify-content: right;
   margin-left: 990px;
