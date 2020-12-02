@@ -6,15 +6,14 @@
     
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
-        <script src="animations.js"></script>
         <!-- Bootstrap Js -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     
         <!-- My CSS -->
-        <link rel="stylesheet" href="style.css" />
-        <script src="./animations.js"></script>
+        <link rel="stylesheet" href="style.css"/>   
+        
     
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/996973c893.js"></script>
@@ -24,187 +23,134 @@
           href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap" rel="stylesheet"/>
              
         <title>Portfolio</title>
-      </head>
-      
-      <body>
+    </head>
+    <body>
 
-        <!-- Navbar -->
-        <nav id="main-navbar" class="navbar sticky-top navbar-expand-lg">
-          <div class="container">
-          <div class="col-6 d-flex justify-content-start align-items-center">
-            <i class="fas fa-code fa-2x text-warning pb-3"></i>
-            <h3 class="text-warning d-inline pl-1">Portfolio</h3>
-          </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav justify-content-between w-100">
-              <li class="nav-item">
-                <a class="nav-link text-warning" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-warning" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-warning" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-warning" href="#Contact">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-warning" href="#Resume">Resume</a>
-              </li>
+
+        <!-- Navigation Panel -->
+        
+
+        <nav>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            
+            
+            <ul class="nav-links">
+                <img id="message" src="images/17265076_1870861896488168_8606602235532126149_n.jpg" style="widows: 50px; height: 50px;"><div id="navMsg">Savyasachi Bongale</div>
+                <li><a class="anch1" href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a class="anch2" href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a class="anch3" href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a class="anch4" href="#contact"><i class="fas fa-id-card"></i> Contact</a></li>
+                <li><a class="anch5" href="#resume"><i class="fas fa-file-invoice"></i> Resume</a></li>
             </ul>
-          </div>
-        </div> 
-      </nav>
+        </nav>
 
-<!-- Home page -->
-          <div id="home">
-          <div class="container main-container">
-              <div class="row">
-                  <div>
-                      <h2 class="text-white">Hello, I'm</h2>
-                      <h2 class="text-warning m-heading">Savya Sachi V B</h2>
-                      <h2 class="text-white">I'm a self-taught Web Developer</h2>
-                  </div>
-                  <div>
-                      <img src="images/undraw_on_the_office_fbfs.svg" alt="image" id="home-image">
-                  </div>
-              </div>
-          </div>
-        </div>
+        
 
-
-<!-- About page -->
-        <div id="About-Pane">
-        <div class="container" id="about">
-            <div class="row">
-                <div class="col-8 pt-5  text-white">
-                    <img src="images/undraw_updated_resume_u4fy.svg" class="img-fluid" alt="about images">
-                </div>
-                <div class="col-4">
+        <!-- Home Panel -->
+        <div id="home" class="col-lg-12" >
+            <div class="sectionDiv">
+                <div id="homeContent" class="container">
+                    <div>
+                    <br> 
+                    <br> 
+                    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
                     <br>
-                    <h2 class="text-warning m-heading pt-50">About Me</h2>
                     <br>
-                    <h4 class="m-heading text-white">A little bit about me.</h4>
-                    <p><b class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit.libero beatae placeat<br> repudiandae accusamus tempora vitae ex molestiae quaerat alias? Laboriosam, id iure. Expedita pariatur dolor ipsam officiis consequatur quia!</b></p>
-                    <p><b class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit.libero beatae placeat<br> repudiandae accusamus tempora vitae ex molestiae quaerat alias? Laboriosam, id iure. Expedita pariatur dolor ipsam officiis consequatur quia!</b></p>
+                    <h1>Hi There!
+                        <br>
+                      <span
+                         class="txt-rotate"
+                         data-period="2000"
+                         data-rotate='[ "Im is Savyasachi.", "This is My Portfolio.", "Im a Web Developer." ,"And Im Self Taught. "]'></span>
+                    </h1>
+                    <h3>/Think Different!/</h3>
+                </div>  
                 </div>
             </div>
         </div>
-    </div>
+   
 
-    <!-- Projects Pane -->
-        <div id="projects-pane">
-        <div class="container p-6" id="projects">
-        <h1 class="text-warning pt-4 pb-4">My Projects</h1>
-        <div class="row row-cols-1 row-cols-md-3">
-            <div class="col mb-4">
-              <div class="card h-100">
-                <img src="images/messaging.svg" class="card-img-top" alt="images">
-                <div class="card-body">
-                  <h5 class="card-title">Blog App</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <a href="#" class="btn btn-warning">View Project</a>
-                </div>
-              </div>
-            </div>
-            <div class="col mb-4">
-              <div class="card h-100">
-                <img src="images/e_commerce_platform.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">PC E-commerce Website</h5>
-                  <p class="card-text">This is a short card.</p>
-                  <a href="#" class="btn btn-warning">View Project</a>
-                </div>
-              </div>
-            </div>
-            <div class="col mb-4">
-              <div class="card h-100">
-                <img src="images/photography.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Camping Website</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-warning">View Project</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>  
-    </div>
 
-        <!--Contact pane -->
-        <div id="Contact-pane">
-          <div class="container-fluid p-10" id="Contact">
-              <div class="container text-white">
-                  <h2 class="text-warning">Contact Me</h2>
-              </div>
-              <div class="container">
-              <div class="row">
-                <div class="card mb-3-fluid" style="max-width: 500px; max-height:550px;">
-                  <div class="row no-gutters">
-                    <div class="col-md-8">
-                      <img src="images/undraw_updated_resume_u4fy.svg" class="card-img" alt="Resume Image">
+        <!-- About Panel -->
+        <div id="about">
+            <div class="sectionDiv">
+               <div id="aboutContent">
+                   <br>
+                   <br>
+                <div class="container p-5">
+                    <h1>About</h1>
+                    <h5 style="color:rgb(238, 255, 192)">As a student, exploring new ideas and technologies for me is very much exciting and never stops. I love to explore and learn about new areas of technologies. I'm now learning Web development which is great to learn and it poses new challenges to face every day. As a student, implementing solutions to problems and building upon ideas is most important. Many of us just "Think", but never put it into "Practice". So think, innovate, and implement the best!</h5>
+                    <u><h5>Education:</h5></u>
+                    <h5 style="background-color:rgb(87, 86, 83);border:1px solid grey; border-radius:10px">-Malnad College of Engineering(2018-22),</h5>
+                    <h5 style="background-color:rgb(82, 82, 77);border:1px solid grey; border-radius:10px">-Satya Sai Vidya Kendra, Satya Sai Grama,<br> Muddenahalli (2011-16)</h5>
+                </div>                
+               </div>
+            </div>
+        </div>
+
+        <!-- Projects Panel -->
+
+        <div id="projects" class="sectionDiv">
+            <div class="sectionDiv pl-5 pt-4 pr-4">
+                <br>
+                <br>
+                <h1 style="color: rgb(255, 255, 255)">My Projects</h1>
+                <div class="card col-sm-2 col-lg-4 col-xl-16 bg-light">
+                    <img src="images/undraw_navigator_a479.svg" class="card-img-top" alt="project image">
+                    <div class="card-body">
+                      <h5 class="card-title">My Top Projects:</h5>
+                      <p class="card-text">Check out my projects here, </p>
                     </div>
-                    <div class="col-md-8">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">1. Blog App   <a href="https://svbblog.herokuapp.com/blogs" class="card-link">View Project</a> ,<a href="https://github.com/Svbongale/BlogApp"> View Source</a></li>
+                      <li class="list-group-item">2. YelpCamp:A camping Site  <a href="https://yelpsvb.herokuapp.com/" class="card-link">View Project</a>,<a href="https://github.com/Svbongale/Yelp"> View Source</a></li>
+                      <li class="list-group-item">3. PC E-commerce Website  <a href="https://pcecom.herokuapp.com/" class="card-link">View Project</a>,<a href="https://github.com/Svbongale/PC-E-Commerce-website"> View Source</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+        <!-- Contact Panel -->
+        
+        <div id="contact" class="sectionDiv">
+                <div id="contactContent">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                 <h2>Contact Me:</h2>   
+                 <a href="https://www.linkedin.com/in/savya-sachi-v-b-7854551b1/"><h2><i class="fab fa-linkedin"></i> Linked In</h2></a>
+                 <a href="https://github.com/Svbongale"><h2><i class="fab fa-github"></i> Github</h2></a>
+                 <a href="https://www.facebook.com/Savyabongale"><h2><i class="fab fa-facebook"></i> Facebook</h2></a>
+                 <a href="#"><h2><i class="fas fa-envelope-open"></i> E-mail:</a> savyanio@gmail.com</h2>
+                </div>
+        </div>
 
+        <!-- Resume Panel -->
+        
+        <div id="resume" class="sectionDiv">
+            <div class="sectionDiv">
+                <div id="resumeContent">
+                    <u><h1>My Resume:</h1></u>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/undraw_files_6b3d.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Resume PDF</h5>
+                      <p class="card-text">Download my resume by clicking the button below,</p>
+                      <a href="https://drive.google.com/file/d/1hZTbiw7i72J_84RTNarZ1KarNlhgCkox/view?usp=sharing" class="btn btn-primary">Download</a>
                     </div>
                   </div>
                 </div>
             </div>
-          </div>
-          </div>
-         </div>
-          
-
-<!-- Resume pane -->
-<div id="Resume-Pane">
-  <div class="container-fluid p-10" id="Resume">
-      <div class="container text-white">
-          <h2 class="text-warning">My Resume</h2>
-      </div>
-      <div class="container">
-      <div class="row">
-        <div class="card mb-3-fluid" style="max-width: 400px; max-height:550px;">
-          <div class="row no-gutters">
-            <div class="col-md-8">
-              <img src="images/undraw_updated_resume_u4fy.svg" class="card-img" alt="Resume Image">
-            </div>
-            <div class="col-md-10">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="row col-6 justify-content-right pl-6">
-          <img src="images/undraw_files_6b3d.svg" class="img-fluid" alt="about images">
-        </div>
-    </div>
-  </div>
-  </div>
- </div>
-
-<!-- Footer pane -->
-        <div id="footer-Pane">
-        <footer>
-            <div class="container text-muted text-center py-3 mt-5"> 
-                <h5>Copyright &copy; 2020 | <a href="#" class="text-white navigation-link">Savyasachi Bongale</a></h5>
-            </div>
-        </footer>
-    </div>
-
-
-    <script src="animations.js"></script>
-
-    
+        <script src="./animation.js"></script>
     </body>
+
+
+
+
 </html>
-
-
-
-
