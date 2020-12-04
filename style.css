@@ -63,6 +63,12 @@ h3 {
   }
   
 
+#splashMessage{
+  color: #ffffff;
+  font-family: Fredoka One;
+}
+
+
 #home {
     background-color: #17293b;
     background-image: url(images/about_img.svg);
@@ -163,6 +169,52 @@ h3 {
     height: 100vh;
 }
 
+
+.splash{
+    padding-top: 40vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: 200;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+
+}
+
+.splash.display-none {
+  position: fixed;
+  opacity: 0;
+  transition: 2000ms;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: -10;
+  color: white;
+  text-align: center;
+  line-height: 90vh;
+}
+
+
+
+@keyframes fadeIn {
+  to{
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
 /* start of home page text styles */
 h1,h2 {
     font-weight: 200;
@@ -181,25 +233,48 @@ h1,h2 {
 
 
 @media screen and (max-width: 1000px)  {
-    .line {
-      width: 30px;
-      height: 3px;
-      background: white;
-      margin: 5px;
-    }
+  .hamburger {
+    position: fixed;
+    cursor: pointer;
+    right: 5%;
+    top: 5%;
+    transform: translate(-5%, -50%);
+    z-index: 2;
+  }
+  
+  #line1,#line2,#line3 {
+    width: 30px;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    margin: 5px;
+    transition: 400ms;
+  }
+
+  .change {
+    overflow: hidden;
+  }
+
+  .change #line1{
+    -webkit-transform-: rotate(-45deg) translate(-8px,4px);
+    transform: rotate(-45deg) translate(-8px,4px);
+  }
+
+  .change #line2{
+    opacity: 0;
+    transition: 200ms;
+    transform: translateX(-50px);
+  }
+
+  .change #line3{
+    -webkit-transform-: rotate(45deg) translate(-7px,-3px);
+    transform: rotate(45deg) translate(-7px,-3px);
+  }
+
     nav {
       position: absolute;
       z-index: 2;
     }
   
-    .hamburger {
-      position: fixed;
-      cursor: pointer;
-      right: 5%;
-      top: 5%;
-      transform: translate(-5%, -50%);
-      z-index: 2;
-    }
   
     .nav-links {
       position: fixed;

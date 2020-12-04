@@ -6,34 +6,48 @@ const anchors2 = document.querySelector(".anch2");
 const anchors3 = document.querySelector(".anch3");
 const anchors4 = document.querySelector(".anch4");
 const anchors5 = document.querySelector(".anch5");
+const splash = document.querySelector(".splash");
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(() => {
+      splash.classList.add('display-none');
+  }, 2000);
+});
+
+
+
 
 hamburger.addEventListener("click", () => {
     navLinks.classList.toggle("open");
+    hamburger.classList.toggle("change");
 });
 
+
+
 anchors1.addEventListener("click", () => {
-    console.log("click closed");
     navLinks.classList.remove("open");
+    hamburger.classList.toggle("change");
 });
 
 anchors2.addEventListener("click", () => {
-    console.log("click closed");
     navLinks.classList.remove("open");
+    hamburger.classList.toggle("change");
 });
 
 anchors3.addEventListener("click", () => {
-    console.log("click closed");
     navLinks.classList.remove("open");
+    hamburger.classList.toggle("change");
 });
 
 anchors4.addEventListener("click", () => {
-    console.log("click closed");
     navLinks.classList.remove("open");
+    hamburger.classList.toggle("change");
 });
 
 anchors5.addEventListener("click", () => {
-    console.log("click closed");
     navLinks.classList.remove("open");
+    hamburger.classList.toggle("change");
 });
 
 // text animations
